@@ -1,4 +1,4 @@
-let idade = 87  // Tipo Number.
+/*let idade = 87  // Tipo Number.
 let nome = "Jhoney R.R."  // Tipo "string".
 let logado = false  //Tipo Boolean.
 
@@ -24,8 +24,26 @@ let y = somar(2, 8)
 
 console.log(x, y) */
 
-if ( nome == "Jhoney R. R.") {
+/*if ( nome == "Jhoney R. R.") {
     console.log ("Olá, Sr. Jhoney!")
 } else {
     console.log("Não cadastrado!")
-}
+}*/
+
+/*let lista = ["Agua", "Farinha", "leite", "corante"] 
+
+for (let item of lista) {
+    console.log("-" + item)
+} */
+
+   // alert("Passear com os dogs...")
+
+   function avisar() {
+    alert("Opa, disparei!");
+ }
+
+let botao = document.querySelector("#botao");
+
+botao.addEventListener("mouseover", () => {
+    avisar()
+})
