@@ -42,8 +42,8 @@ for (let item of lista) {
     alert("Opa, disparei!");
  }
 
-let botao = document.querySelector("#botao");
+const botao = document.querySelector("#botao");
 
-botao.addEventListener("mouseover", () => {
+botao.addEventListener("click", () => {
     avisar()
 })
