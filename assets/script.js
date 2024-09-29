@@ -38,12 +38,27 @@ for (let item of lista) {
 
    // alert("Passear com os dogs...")
 
-   function avisar() {
-    alert("Opa, disparei!");
- }
+//    function avisar() {
+//     alert("Opa, disparei!");
+//  }
 
-const botao = document.querySelector("#botao");
+// const botao = document.querySelector("#botao");
 
-botao.addEventListener("click", () => {
-    avisar()
+// botao.addEventListener("click", () => {
+//     avisar()
+// })
+
+// 
+
+let dolar = 5.1
+
+const usdInput = document.querySelector("#usd")
+const brlInput = document.querySelector("#brl")
+
+usdInput.addEventListener("keyup", () => {
+
+})
+
+brlInput.addEventListener("keyup", () => {
+
 })
